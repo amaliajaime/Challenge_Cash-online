@@ -1,0 +1,15 @@
+CREATE TABLE  USERS (
+  "id" VARCHAR(20) NOT NULL,
+  "correo_electronico" VARCHAR(70) NOT NULL,
+  "firstname" VARCHAR(40) NULL,
+  "lastname" VARCHAR(100) NULL,
+
+  PRIMARY KEY ("id"));
+
+
+ CREATE TABLE  LOANS (
+  "id" VARCHAR(20) NOT NULL,
+  "total" VARCHAR(70) NOT NULL,
+  "user_id" VARCHAR(40) NOT NULL,
+
+  PRIMARY KEY ("id", "userId"));

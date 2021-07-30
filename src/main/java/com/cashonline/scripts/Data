@@ -1,0 +1,39 @@
+INSERT INTO public.users(
+	id, email, firstname, lastname)
+	VALUES (1, 'amaliajaime@gmail.com', 'Amalia', 'Jaime');
+
+INSERT INTO public.users(
+	id, email, firstname, lastname)
+	VALUES (2, 'malep@gmail.com', 'Malena', 'Perez');
+
+INSERT INTO public.loans(
+	id, total, user_id)
+	VALUES (1, 2000, 1);
+
+INSERT INTO public.loans(
+	id, total, user_id)
+	VALUES (2, 1500, 1);
+
+INSERT INTO public.loans(
+	id, total, user_id)
+	VALUES (3, 2000, 2);
+
+INSERT INTO public.loans(
+	id, total, user_id)
+	VALUES (4, 1500, 2);
+
+INSERT INTO public.loans(
+	id, total, user_id)
+	VALUES (5, 2000, 2);
+
+INSERT INTO public.loans(
+	id, total, user_id)
+	VALUES (6, 1500, 2);
+
+INSERT INTO public.loans(
+	id, total, user_id)
+	VALUES (7, 2000, 2);
+
+INSERT INTO public.loans(
+	id, total, user_id)
+	VALUES (8, 1500, 2);
