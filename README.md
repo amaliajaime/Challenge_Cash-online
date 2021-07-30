@@ -10,7 +10,7 @@ Se escribe el comando 'git clone' + la url copiada
 ## Instalar librerias
 Se abre el proyecto en un editor, ejemplo Intelli-J IDEA.
 Se installan las librerias que necesita el proyecto 
-Sobre el archivo pom.xml se hace click derecho, en la opción `maven` se selecciona `reloead`
+Sobre el archivo pom.xml se hace click derecho, en la opción `maven` se selecciona `reload proyect`
 
 ## Startear la aplicación
 Y luego se startea la app de la siguiente forma
